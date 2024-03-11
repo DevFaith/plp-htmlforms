@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.div-page1{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+.div-h1{
+    color: rgb(247, 93, 93);
+    justify-content: space-between;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    justify-content: space-between;
+
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+
+}
+label {
+    font-weight: bold;
+}
+input[type="text"],
+input[type="date"],
+select {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+}
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    justify-content: space-between;
+
+}
+button.cancel {
+    background-color: #ccc;
+    justify-content: space-between;
+    
+}
